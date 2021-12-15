@@ -9,6 +9,7 @@ console.log("stampo le potenze di 2 fino a 1000");
 let risultato=1;
 let counter=0;
 
+console.log(`2 elevato alla 0 = 1`);
 
 while(risultato<1000){
     
