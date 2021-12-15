@@ -13,8 +13,8 @@ while(list.length<50){
     // per ora costato che funziona molto bene 
     list.push(element);
 
-    console.log(list);
 }
+console.log(list);
 
 
 
