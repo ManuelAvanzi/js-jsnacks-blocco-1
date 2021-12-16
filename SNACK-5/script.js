@@ -4,19 +4,17 @@
 
 
 const list=[];
+let sum=0;
+while(list.length<50 && sum<=50){
 
-while(list.length<50){
+    let element=parseInt(prompt("inserisci un numero nella lista"));
+    sum+=element;
 
-    let element=prompt("inserisci un elemento nella lista");
-    
-    // questa è la versione "ovvia" con push() 
-    // per ora costato che funziona molto bene 
     list.push(element);
 
 }
 console.log(list);
+console.log(`la somma dei numeri è ${sum}`);
 
 
 
-
-//versione senza push()
